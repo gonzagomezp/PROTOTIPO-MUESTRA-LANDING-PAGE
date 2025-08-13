@@ -352,21 +352,16 @@ export default function CafeteriaLanding() {
               </Card>
             </div>
 
-            <div className="relative group">
-              <div className="absolute -inset-4 bg-gradient-to-r h-[440px] from-amber-400 to-stone-400 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
-              <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36741.44656003069!2d-64.21573691526727!3d-31.409051868212725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432993038308dbd%3A0x6b19099e5c73a073!2sPlaza%20Col%C3%B3n!5e0!3m2!1ses!2sar!4v1755109456343!5m2!1ses!2sar"
-                  width="100%"
-                  height="400"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="rounded-2xl"
-                ></iframe>
-              </div>
-            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36741.44656003069!2d-64.21573691526727!3d-31.409051868212725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432993038308dbd%3A0x6b19099e5c73a073!2sPlaza%20Col%C3%B3n!5e0!3m2!1ses!2sar!4v1755109456343!5m2!1ses!2sar"
+              width="100%"
+              height="320"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-2xl"
+            ></iframe>
           </div>
         </div>
       </section>
