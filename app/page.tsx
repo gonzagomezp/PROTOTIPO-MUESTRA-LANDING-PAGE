@@ -4,7 +4,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Coffee, Heart, Clock, Star, MapPin, Phone, MessageCircle, Menu, X } from "lucide-react";
+import { Coffee, Heart, Clock, Star, MapPin, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export default function CafeteriaLanding() {
