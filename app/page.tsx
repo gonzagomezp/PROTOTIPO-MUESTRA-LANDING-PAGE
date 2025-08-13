@@ -126,7 +126,7 @@ export default function CafeteriaLanding() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/elegant-coffee-shop.png')",
+            backgroundImage: "url('/fondo.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-stone-900/80 to-amber-900/70" />
@@ -304,45 +304,34 @@ export default function CafeteriaLanding() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center text-stone-800 mb-20 font-serif">Visítanos o haz tu pedido</h2>
 
-          <div className="grid md:grid-cols-2 gap-16">
-            <div>
-              <div className="space-y-8 mb-12">
-                <div className="flex items-center group">
-                  <div className="w-14 h-14 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300">
-                    <MapPin className="w-7 h-7 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-stone-800 text-xl mb-1">Dirección</h4>
-                    <p className="text-stone-600 text-lg">Plaza colón</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center group">
-                  <div className="w-14 h-14 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300">
-                    <Clock className="w-7 h-7 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-stone-800 text-xl mb-1">Horario</h4>
-                    <p className="text-stone-600 text-lg">Lun-Dom: 7:00 AM - 10:00 PM</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center group">
-                  <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300">
-                    <Phone className="w-7 h-7 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-stone-800 text-xl mb-1">Teléfono</h4>
-                    <p className="text-stone-600 text-lg">+54 351 000 0000</p>
-                  </div>
-                </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="flex items-center group">
+              <div className="w-14 h-14 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300">
+                <Clock className="w-7 h-7 text-white" />
               </div>
+              <div>
+                <h4 className="font-bold text-stone-800 text-xl mb-1">Horario</h4>
+                <p className="text-stone-600 text-lg">Lun-Dom: 7:00 AM - 10:00 PM</p>
+              </div>
+            </div>
 
+            <div className="flex items-center group">
+              <div className="w-14 h-14 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center mr-6 group-hover:scale-110 transition-transform duration-300">
+                <MapPin className="w-7 h-7 text-white" />
+              </div>
+              <div>
+                <h4 className="font-bold text-stone-800 text-xl mb-1">Dirección</h4>
+                <p className="text-stone-600 text-lg">Plaza colón</p>
+              </div>
+            </div>
+
+            <div>
               <Card className="bg-gradient-to-br from-green-50 to-emerald-50 border-0 shadow-xl">
-                <CardContent className="p-8 text-center">
-                  <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                    <MessageCircle className="w-10 h-10 text-white" />
+                <CardContent className="py-6 px-8 text-center">
+                  <div className="w-full flex justify-center">
+                    <img src={"/whatsapp.svg"} className="w-[200px] mb-4" />
                   </div>
+
                   <h3 className="text-2xl font-bold text-stone-800 mb-4">¡Contáctanos por WhatsApp!</h3>
                   <p className="text-stone-600 text-lg mb-6">
                     Haz tu pedido o consulta directamente a través de WhatsApp para una atención más rápida y

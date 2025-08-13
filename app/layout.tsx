@@ -20,7 +20,7 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: "Aroma & Sabor - Tu café, tu momento",
   description: "Cafés de especialidad y repostería artesanal en un ambiente único",
-  generator: "v0.app",
+  generator: "gonzagomezp",
   icons: {
     icon: "/favicon.ico",
   },
